@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90404FE02BDA3D4500790433 /* PythaSagaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90404FDF2BDA3D4500790433 /* PythaSagaApp.swift */; };
+		90404FE22BDA3D4500790433 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90404FE12BDA3D4500790433 /* ContentView.swift */; };
+		90404FE42BDA3D4800790433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90404FE32BDA3D4800790433 /* Assets.xcassets */; };
+		90404FE72BDA3D4800790433 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90404FE62BDA3D4800790433 /* Preview Assets.xcassets */; };
+		90404FF12BDA3D4800790433 /* PythaSagaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90404FF02BDA3D4800790433 /* PythaSagaTests.swift */; };
+		90404FFB2BDA3D4800790433 /* PythaSagaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90404FFA2BDA3D4800790433 /* PythaSagaUITests.swift */; };
+		90404FFD2BDA3D4800790433 /* PythaSagaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90404FFC2BDA3D4800790433 /* PythaSagaUITestsLaunchTests.swift */; };
+		905080972BE364D200A22223 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905080962BE364D200A22223 /* QuestionModel.swift */; };
+		905080992BE36B8400A22223 /* PythagorasPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905080982BE36B8400A22223 /* PythagorasPopupView.swift */; };
+		9083D3842BDB80C100FF27B6 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083D3832BDB80C100FF27B6 /* SplashView.swift */; };
+		9083D3862BDB94F700FF27B6 /* AtlasImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083D3852BDB94F700FF27B6 /* AtlasImage.swift */; };
+		9083D3882BDF268B00FF27B6 /* LandingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083D3872BDF268B00FF27B6 /* LandingScreenView.swift */; };
+		9083D38A2BDF28D000FF27B6 /* BattleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083D3892BDF28D000FF27B6 /* BattleView.swift */; };
+		9083D3902BDF88ED00FF27B6 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083D38F2BDF88ED00FF27B6 /* ColorModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90404FED2BDA3D4800790433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90404FD42BDA3D4500790433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90404FDB2BDA3D4500790433;
+			remoteInfo = PythaSaga;
+		};
+		90404FF72BDA3D4800790433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90404FD42BDA3D4500790433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90404FDB2BDA3D4500790433;
+			remoteInfo = PythaSaga;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90404FDC2BDA3D4500790433 /* PythaSaga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PythaSaga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90404FDF2BDA3D4500790433 /* PythaSagaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythaSagaApp.swift; sourceTree = "<group>"; };
+		90404FE12BDA3D4500790433 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		90404FE32BDA3D4800790433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90404FE62BDA3D4800790433 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		90404FEC2BDA3D4800790433 /* PythaSagaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PythaSagaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90404FF02BDA3D4800790433 /* PythaSagaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythaSagaTests.swift; sourceTree = "<group>"; };
+		90404FF62BDA3D4800790433 /* PythaSagaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PythaSagaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90404FFA2BDA3D4800790433 /* PythaSagaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythaSagaUITests.swift; sourceTree = "<group>"; };
+		90404FFC2BDA3D4800790433 /* PythaSagaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythaSagaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		905080962BE364D200A22223 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
+		905080982BE36B8400A22223 /* PythagorasPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythagorasPopupView.swift; sourceTree = "<group>"; };
+		9083D3832BDB80C100FF27B6 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		9083D3852BDB94F700FF27B6 /* AtlasImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlasImage.swift; sourceTree = "<group>"; };
+		9083D3872BDF268B00FF27B6 /* LandingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreenView.swift; sourceTree = "<group>"; };
+		9083D3892BDF28D000FF27B6 /* BattleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleView.swift; sourceTree = "<group>"; };
+		9083D38F2BDF88ED00FF27B6 /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90404FD92BDA3D4500790433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90404FE92BDA3D4800790433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90404FF32BDA3D4800790433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90404FD32BDA3D4500790433 = {
+			isa = PBXGroup;
+			children = (
+				90404FDE2BDA3D4500790433 /* PythaSaga */,
+				90404FEF2BDA3D4800790433 /* PythaSagaTests */,
+				90404FF92BDA3D4800790433 /* PythaSagaUITests */,
+				90404FDD2BDA3D4500790433 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90404FDD2BDA3D4500790433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90404FDC2BDA3D4500790433 /* PythaSaga.app */,
+				90404FEC2BDA3D4800790433 /* PythaSagaTests.xctest */,
+				90404FF62BDA3D4800790433 /* PythaSagaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90404FDE2BDA3D4500790433 /* PythaSaga */ = {
+			isa = PBXGroup;
+			children = (
+				9083D38E2BDF31A400FF27B6 /* ViewModel */,
+				9083D38C2BDF317200FF27B6 /* Model */,
+				9083D38B2BDF316300FF27B6 /* View */,
+				9083D3852BDB94F700FF27B6 /* AtlasImage.swift */,
+				90404FDF2BDA3D4500790433 /* PythaSagaApp.swift */,
+				90404FE32BDA3D4800790433 /* Assets.xcassets */,
+				90404FE52BDA3D4800790433 /* Preview Content */,
+			);
+			path = PythaSaga;
+			sourceTree = "<group>";
+		};
+		90404FE52BDA3D4800790433 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				90404FE62BDA3D4800790433 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		90404FEF2BDA3D4800790433 /* PythaSagaTests */ = {
+			isa = PBXGroup;
+			children = (
+				90404FF02BDA3D4800790433 /* PythaSagaTests.swift */,
+			);
+			path = PythaSagaTests;
+			sourceTree = "<group>";
+		};
+		90404FF92BDA3D4800790433 /* PythaSagaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90404FFA2BDA3D4800790433 /* PythaSagaUITests.swift */,
+				90404FFC2BDA3D4800790433 /* PythaSagaUITestsLaunchTests.swift */,
+			);
+			path = PythaSagaUITests;
+			sourceTree = "<group>";
+		};
+		9083D38B2BDF316300FF27B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9083D3832BDB80C100FF27B6 /* SplashView.swift */,
+				90404FE12BDA3D4500790433 /* ContentView.swift */,
+				9083D3872BDF268B00FF27B6 /* LandingScreenView.swift */,
+				9083D3892BDF28D000FF27B6 /* BattleView.swift */,
+				905080982BE36B8400A22223 /* PythagorasPopupView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9083D38C2BDF317200FF27B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9083D38F2BDF88ED00FF27B6 /* ColorModel.swift */,
+				905080962BE364D200A22223 /* QuestionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9083D38E2BDF31A400FF27B6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90404FDB2BDA3D4500790433 /* PythaSaga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904050002BDA3D4800790433 /* Build configuration list for PBXNativeTarget "PythaSaga" */;
+			buildPhases = (
+				90404FD82BDA3D4500790433 /* Sources */,
+				90404FD92BDA3D4500790433 /* Frameworks */,
+				90404FDA2BDA3D4500790433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PythaSaga;
+			productName = PythaSaga;
+			productReference = 90404FDC2BDA3D4500790433 /* PythaSaga.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90404FEB2BDA3D4800790433 /* PythaSagaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904050032BDA3D4800790433 /* Build configuration list for PBXNativeTarget "PythaSagaTests" */;
+			buildPhases = (
+				90404FE82BDA3D4800790433 /* Sources */,
+				90404FE92BDA3D4800790433 /* Frameworks */,
+				90404FEA2BDA3D4800790433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90404FEE2BDA3D4800790433 /* PBXTargetDependency */,
+			);
+			name = PythaSagaTests;
+			productName = PythaSagaTests;
+			productReference = 90404FEC2BDA3D4800790433 /* PythaSagaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90404FF52BDA3D4800790433 /* PythaSagaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904050062BDA3D4800790433 /* Build configuration list for PBXNativeTarget "PythaSagaUITests" */;
+			buildPhases = (
+				90404FF22BDA3D4800790433 /* Sources */,
+				90404FF32BDA3D4800790433 /* Frameworks */,
+				90404FF42BDA3D4800790433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90404FF82BDA3D4800790433 /* PBXTargetDependency */,
+			);
+			name = PythaSagaUITests;
+			productName = PythaSagaUITests;
+			productReference = 90404FF62BDA3D4800790433 /* PythaSagaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90404FD42BDA3D4500790433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					90404FDB2BDA3D4500790433 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					90404FEB2BDA3D4800790433 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 90404FDB2BDA3D4500790433;
+					};
+					90404FF52BDA3D4800790433 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 90404FDB2BDA3D4500790433;
+					};
+				};
+			};
+			buildConfigurationList = 90404FD72BDA3D4500790433 /* Build configuration list for PBXProject "PythaSaga" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90404FD32BDA3D4500790433;
+			productRefGroup = 90404FDD2BDA3D4500790433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90404FDB2BDA3D4500790433 /* PythaSaga */,
+				90404FEB2BDA3D4800790433 /* PythaSagaTests */,
+				90404FF52BDA3D4800790433 /* PythaSagaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90404FDA2BDA3D4500790433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90404FE72BDA3D4800790433 /* Preview Assets.xcassets in Resources */,
+				90404FE42BDA3D4800790433 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90404FEA2BDA3D4800790433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90404FF42BDA3D4800790433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90404FD82BDA3D4500790433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90404FE22BDA3D4500790433 /* ContentView.swift in Sources */,
+				9083D3902BDF88ED00FF27B6 /* ColorModel.swift in Sources */,
+				905080992BE36B8400A22223 /* PythagorasPopupView.swift in Sources */,
+				90404FE02BDA3D4500790433 /* PythaSagaApp.swift in Sources */,
+				9083D3882BDF268B00FF27B6 /* LandingScreenView.swift in Sources */,
+				9083D38A2BDF28D000FF27B6 /* BattleView.swift in Sources */,
+				9083D3862BDB94F700FF27B6 /* AtlasImage.swift in Sources */,
+				9083D3842BDB80C100FF27B6 /* SplashView.swift in Sources */,
+				905080972BE364D200A22223 /* QuestionModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90404FE82BDA3D4800790433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90404FF12BDA3D4800790433 /* PythaSagaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90404FF22BDA3D4800790433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90404FFB2BDA3D4800790433 /* PythaSagaUITests.swift in Sources */,
+				90404FFD2BDA3D4800790433 /* PythaSagaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90404FEE2BDA3D4800790433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90404FDB2BDA3D4500790433 /* PythaSaga */;
+			targetProxy = 90404FED2BDA3D4800790433 /* PBXContainerItemProxy */;
+		};
+		90404FF82BDA3D4800790433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90404FDB2BDA3D4500790433 /* PythaSaga */;
+			targetProxy = 90404FF72BDA3D4800790433 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		90404FFE2BDA3D4800790433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90404FFF2BDA3D4800790433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		904050012BDA3D4800790433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PythaSaga/Preview Content\"";
+				DEVELOPMENT_TEAM = 72R73HP2PG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nanochallenge1.PythaSaga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		904050022BDA3D4800790433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PythaSaga/Preview Content\"";
+				DEVELOPMENT_TEAM = 72R73HP2PG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nanochallenge1.PythaSaga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		904050042BDA3D4800790433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72R73HP2PG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nanochallenge1.PythaSagaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PythaSaga.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PythaSaga";
+			};
+			name = Debug;
+		};
+		904050052BDA3D4800790433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72R73HP2PG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nanochallenge1.PythaSagaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PythaSaga.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PythaSaga";
+			};
+			name = Release;
+		};
+		904050072BDA3D4800790433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72R73HP2PG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nanochallenge1.PythaSagaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PythaSaga;
+			};
+			name = Debug;
+		};
+		904050082BDA3D4800790433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72R73HP2PG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nanochallenge1.PythaSagaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PythaSaga;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90404FD72BDA3D4500790433 /* Build configuration list for PBXProject "PythaSaga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90404FFE2BDA3D4800790433 /* Debug */,
+				90404FFF2BDA3D4800790433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904050002BDA3D4800790433 /* Build configuration list for PBXNativeTarget "PythaSaga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904050012BDA3D4800790433 /* Debug */,
+				904050022BDA3D4800790433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904050032BDA3D4800790433 /* Build configuration list for PBXNativeTarget "PythaSagaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904050042BDA3D4800790433 /* Debug */,
+				904050052BDA3D4800790433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904050062BDA3D4800790433 /* Build configuration list for PBXNativeTarget "PythaSagaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904050072BDA3D4800790433 /* Debug */,
+				904050082BDA3D4800790433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90404FD42BDA3D4500790433 /* Project object */;
+}
